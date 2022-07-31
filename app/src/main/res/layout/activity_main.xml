@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/home3" />
+
+    <TextView
+        android:id="@+id/txtData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:fontFamily="sans-serif"
+        android:text="Klik Tombol Untuk Cek Status:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtData2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:text="Cek Koneksi Anda..."
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/txtData3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="130dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:fontFamily="sans-serif"
+        android:text="Pintu Depan :"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:text="OPEN"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E61616"
+        android:padding="20dp"
+        android:text="LOCK"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+    <TextView
+        android:id="@+id/txtData6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Copyright @halo_wahid 2020"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtData9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Lampu Teras :"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/on1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E61616"
+        android:padding="20dp"
+        android:text="OFF"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/off1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:text="ON"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtData12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Lampu Atas :"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/on2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E61616"
+        android:padding="20dp"
+        android:text="OFF"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/off2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:text="ON"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/refreshpintu"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pintu" />
+
+    <Button
+        android:id="@+id/refreshlampu"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lampu Teras" />
+
+    <Button
+        android:id="@+id/refreshpompa"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lampu atas"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Klik Tombol Untuk Kontrol :"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+</RelativeLayout>
